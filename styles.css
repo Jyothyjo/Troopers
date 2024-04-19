@@ -1,0 +1,125 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg4.png'); /* Set background image */
+    background-size: cover;
+    color: white; /* white text */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background for header */
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for containers */
+    border-radius: 10px;
+    position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.about-section, .team-members {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background for sections */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.about-description {
+    color: white; /* white text color for description */
+    font-family: 'Times New Roman', Times, serif; /* Change font family */
+	font-size: 20px; /* Set font size */
+}
+
+.about-section h2, .team-members h2 {
+    color: white; /* white text for headings */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Change font family */
+}
+
+.scrollable-images {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next row */
+    justify-content: center; /* Center images horizontally */
+}
+
+.scrollable-images img {
+    margin: 10px; /* Add spacing around images */
+    max-width: 100%; /* Set maximum width to maintain original aspect ratio */
+    height: auto; /* Let the height adjust according to the width */
+    border-radius: 10px; /* Add border radius to images */
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.team-member p {
+    margin: 0;
+    color: #999; /* gray text for descriptions */
+}
+
+.team-member .details {
+    flex: 1;
+}
+
+.team-container {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    position: relative; /* Ensure relative positioning for absolute elements */
+}
+
+.team-members-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team-member {
+    flex: 0 0 auto;
+    width: 300px; /* set width of each member container */
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background for member containers */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #ffffff; /* white text color */
+    margin-top: 8px; /* adjust margin-top as needed */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.team-name {
+    font-family:'Times New Roman', Times, serif;
+}
+.image-section h2 {
+    text-align: center;
+	font-family:'Times New Roman', Times, serif;
+}
